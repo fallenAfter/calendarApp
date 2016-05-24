@@ -16,7 +16,7 @@
 				<?php
 					// connect to server
 					try{
-					$conn = new PDO('mysql:host=localhost;dbname=local', 'belliott', 'admin');
+					$conn = new PDO('mysql:host=localhost;dbname=calendar', 'belliott', 'admin');
 					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 					}
 					// catch and display connection errors
