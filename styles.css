@@ -1,0 +1,52 @@
+body{
+	background-color: #eee;
+	color: #999;
+	font-family: Arial;
+	font-size: 100%;
+}
+/*calendar styles for table formating*/
+.calendar{
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+}
+.calendar>section{
+	float: right;
+
+}
+.modifyCalendar>h2{
+	position: absolute;
+	bottom: 250px;
+}
+.calendar>table{
+	width:100%;
+	border: 1px solid #999;
+	border-spacing: 0;
+}
+.calendar td{
+	border: 1px solid #999;
+	margin: 0px;
+	width: 14%;
+	height: 250px;
+	vertical-align: top;
+}
+.events{
+	max-height: 250px;
+	overflow-y: auto;
+}
+.calendar h3{
+	text-align: right;
+	display: block;
+	margin: 0px;
+	font-size: 1.8em;
+
+}
+.calendar h4{
+	font-size: 1.4em;
+	margin: 0px;
+	display: inline;
+}
+.calendar p{
+	display: inline;
+}
